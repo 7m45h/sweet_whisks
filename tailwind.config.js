@@ -58,7 +58,7 @@ module.exports = {
           },
         },
         ".btn-secondary": {
-          padding: `4px 15px`,
+          padding: `3px 15px`,
           backgroundColor: theme("colors.white"),
           color: theme("colors.primary"),
           border: "2px solid",

@@ -1285,6 +1285,10 @@ video {
     gap: 2rem;
   }
 
+  .lg\:rounded-xl{
+    border-radius: 0.75rem;
+  }
+
   .lg\:rounded-r-xl{
     border-top-right-radius: 0.75rem;
     border-bottom-right-radius: 0.75rem;

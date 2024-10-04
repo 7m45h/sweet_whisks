@@ -815,15 +815,6 @@ video {
   border-radius: 0.75rem;
 }
 
-.rounded{
-  border-radius: 0.25rem;
-}
-
-.rounded-l-\[\]{
-  border-top-left-radius: ;
-  border-bottom-left-radius: ;
-}
-
 .rounded-l-\[20px\]{
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
@@ -868,18 +859,6 @@ video {
 
 .bg-none{
   background-image: none;
-}
-
-.bg-\[url\(\'\.\/\'\)\]{
-  background-image: url('./');
-}
-
-.bg-\[url\(\'\'\)\]{
-  background-image: url('');
-}
-
-.bg-\[url\(\'\.\/images\/bg-img\.\'\)\]{
-  background-image: url('./images/bg-img.');
 }
 
 .bg-contain{
@@ -934,11 +913,6 @@ video {
 .py-8{
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
-
-.px-3{
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
 }
 
 .pl-1{

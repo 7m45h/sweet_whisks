@@ -708,6 +708,15 @@ video {
   width: 100%;
 }
 
+.w-auto{
+  width: auto;
+}
+
+.w-fit{
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
 .flex-shrink-0{
   flex-shrink: 0;
 }
@@ -793,6 +802,10 @@ video {
 
 .scroll-smooth{
   scroll-behavior: smooth;
+}
+
+.whitespace-nowrap{
+  white-space: nowrap;
 }
 
 .rounded-\[200px\]{

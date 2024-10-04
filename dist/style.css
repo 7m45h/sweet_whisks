@@ -791,6 +791,10 @@ video {
   overflow: hidden;
 }
 
+.scroll-smooth{
+  scroll-behavior: smooth;
+}
+
 .rounded-\[200px\]{
   border-radius: 200px;
 }
@@ -809,15 +813,6 @@ video {
 
 .rounded-xl{
   border-radius: 0.75rem;
-}
-
-.rounded{
-  border-radius: 0.25rem;
-}
-
-.rounded-l-\[\]{
-  border-top-left-radius: ;
-  border-bottom-left-radius: ;
 }
 
 .rounded-l-\[20px\]{
@@ -918,11 +913,6 @@ video {
 .py-8{
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
-
-.px-3{
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
 }
 
 .pl-1{

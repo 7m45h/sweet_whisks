@@ -861,6 +861,10 @@ video {
   background-image: none;
 }
 
+.bg-\[url\(\'\.\/images\/bg-img-new\.png\'\)\]{
+  background-image: url('./images/bg-img-new.png');
+}
+
 .bg-contain{
   background-size: contain;
 }

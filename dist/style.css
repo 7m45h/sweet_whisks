@@ -882,6 +882,26 @@ video {
   background-image: url('./images/bg-img.');
 }
 
+.bg-\[url\(\'\.\/images\/\'\)\]{
+  background-image: url('./images/');
+}
+
+.bg-\[url\(\'\.\/images\/asset_1\.webp\'\)\]{
+  background-image: url('./images/asset_1.webp');
+}
+
+.bg-\[url\(\'\.\/images\/bg-\'\)\]{
+  background-image: url('./images/bg-');
+}
+
+.bg-\[url\(\'\.\/images\/bg-img\'\)\]{
+  background-image: url('./images/bg-img');
+}
+
+.bg-\[url\(\'\.\/images\/bg-img-new\.png\'\)\]{
+  background-image: url('./images/bg-img-new.png');
+}
+
 .bg-contain{
   background-size: contain;
 }

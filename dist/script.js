@@ -1,4 +1,4 @@
-/*menu button configuration*/
+/*Mobile menu*/
 menuBtn.addEventListener('click', () => {
 mobileMenu.classList.toggle('hidden');
 });

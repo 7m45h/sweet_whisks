@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sweet Whisks Contact Us</title>
-    <link rel="stylesheet" href="./style.css" />
+    <title>Sweet Whisks About</title>
+    <link rel="stylesheet" href="./style.css"/>
     <script src="./script.js" defer></script>
 </head>
 <body>
@@ -36,11 +36,13 @@
               <a href="#testimonial">Testimonials</a>
             </li>
           </ul>
-          <button
-            class="lg:ml-4 btn-primary text-a-mobile md:text-a-tablet lg:text-a-desktop font-body"
-          >
-            Contact
-          </button>
+          <a href="./contact.html">
+              <button
+                class="lg:ml-4 btn-primary text-a-mobile md:text-a-tablet lg:text-a-desktop font-body"
+              >
+                Contact
+              </button>
+          </a>
         </div>
       </div>
       <!-- Mobile Menu -->
@@ -87,10 +89,22 @@
           <li
             class="mb-2 font-semibold text-right text-txt-lightGray font-body md:text-a-tablet text-a-mobile hover:scale-105"
           >
-            <a href="">Contact</a>
+            <a href="./contact.html">Contact</a>
           </li>
         </ul>
       </div>
     </header>
+    <!--  hero section -->
+    <div class="w-full relative border">
+        <div class="flex flex-col absolute w-full px-5 md:px-12 lg:px-24 justify-center items-center top-[6%] md:top[12%] md:items-end">
+            <h1 class="text-h1-mobile md:text-h1-tablet lg:text-h1-desktop font-heading text-white text-center md:text-right">Baking Dreams <br/>into Reality</h1>
+            <p class="text-p-mobile md:text-p-tablet lg:text-p-desktop text-center md:text-right text-secondary font-bold font-body">
+                Savor the Artistry of<br class="hidden md:block"/> Exceptional <br class="block md:hidden"/>Confections
+            </p> 
+        </div>
+        <img src="./images/about-hero-mobile.webp" alt="image of cakes" class="w-full md:hidden">
+        <img src="./images/about-hero-tablet.webp" alt="image of cakes" class="hidden md:block lg:hidden w-full">
+        <img src="./images/about-hero-desktop.webp" alt="image of cakes" class="hidden lg:block w-full">       
+    </div>
 </body>
 </html>

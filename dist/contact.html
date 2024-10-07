@@ -95,6 +95,85 @@
       </div>
     </header>
     <!-- contact form -->
+    <div class="flex flex-col lg:flex-row w-full px-5 md:px-12 lg:px-24 py-8 lg:py-14 border">
+      <div class="w-full lg:w-3/5 lg:px-4">
+        <h2 class="text-h2-mobile md:text-h2-tablet lg:text-h2-desktop font-heading text-black">Have a Question?</h2>
+        <p class="text-a-mobile md:text-a-tablet lg:text-a-desktop font-body font-semibold text-secondary-shade mb-6">
+          We're here to help, every step of the way.
+        </p>
+        <p class="text-p-mobile md:text-p-tablet lg:text-p-desktop font-body text-txt-lightGray mb-2">
+          We’re here to help! Whether you need more information about our services or have any special requests, don't hesitate to get in touch. Our team is ready to assist you with personalized support to ensure your experience is smooth and enjoyable. Simply fill out the form below, and we'll get back to you as soon as possible.
+        </p>
+        <p class="text-p-mobile md:text-p-tablet lg:text-p-desktop font-body text-txt-lightGray mb-6">
+          For more urgent inquiries, feel free to contact us directly via phone or email. We strive to respond to all queries within 24 hours and are committed to providing clear and helpful answers to any questions you may have.
+        </p>
+        <div>
 
+        </div>
+      </div>
+      <div class="bg-background p-8 rounded-[20px] shadow-lg w-full lg:w-2/5">
+          <form>
+              <div class="mb-4">
+                  <label for="name" class="block text-gray-700 text-sm font-bold mb-2">Name</label>
+                  <input type="text" id="name" name="name" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+              </div>
+              <div class="mb-4">
+                  <label for="email" class="block text-gray-700 text-sm font-bold mb-2">Email</label>
+                  <input type="email" id="email" name="email" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+              </div>
+              <div class="mb-4">
+                  <label for="message" class="block text-gray-700 text-sm font-bold mb-2">Message</label>
+                  <textarea id="message" name="message" rows="4" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" required></textarea>
+              </div>
+              <div class="mb-6">
+                  <label class="flex items-center">
+                      <input type="checkbox" name="subscribe" class="mr-2">
+                      <span class="text-sm">Subscribe to our newsletter</span>
+                  </label>
+              </div>
+              <button type="submit" class="w-full btn-secondary font-bold py-2 px-4">Submit</button>
+          </form>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer class="flex flex-col justify-center items-center w-full bg-white bottom-0 border" style="box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);"> 
+      <div class="flex flex-row flex-wrap justify-between items-start px-5 md:px-12 lg:px-24 py-6 w-full">
+        <div class="flex flex-col items-center mb-4 px-12">
+            <div class="flex flex-col items-start">
+              <button class="font-bold text-lg mb-2">Explore</button>
+              <ul>
+                  <li class="mb-1"><a href="./index.html#home" class="text-gray-600 hover:text-gray-900">Home</a></li>
+                  <li class="mb-1"><a href="#" class="text-gray-600 hover:text-gray-900">Orders</a></li>
+              </ul>
+            </div>
+        </div>
+        <div class="flex flex-col items-center mb-4 px-12">
+            <div class="flex flex-col items-start">
+              <button class="font-bold text-lg mb-2">About Us</button>
+              <ul>
+                  <li class="mb-1"><a href="./about.html#our-journey" class="text-gray-600 hover:text-gray-900">Our Journey</a></li>
+                  <li class="mb-1"><a href="./index.html#featured-products" class="text-gray-600 hover:text-gray-900">Our products</a></li>
+                  <li class="mb-1"><a href="./index.html#services" class="text-gray-600 hover:text-gray-900">Services</a></li>
+                </ul>
+              </div>
+          </div>
+          <div class="flex flex-col items-center mb-4 px-12">
+              <div class="flex flex-col items-start">
+                <button class="font-bold text-lg mb-2">Visit Us</button>
+                <a href="https://maps.app.goo.gl/LZMbQx51eH7S8duJ7" target="_blank" class="text-gray-600 hover:text-gray-900 mb-2">123 Baker Street,<br>Sweetville, SW 12345</a>
+                <p class="text-gray-600">
+                    Hours:<br>
+                    Mon-Sat: 7am-7pm<br>
+                    Sun: 8am-4pm
+                </p>
+              </div>
+          </div>
+        </div>
+        <div class="flex justify-center items-center bg-background w-full py-2">
+          <p class="text-p-small-mobile md:text-p-small-tablet lg:text-p-small-desktop font-body text-txt-darkGray text-center font-light">
+            Copyright © 2024 Aromaville PVT LTD. All rights reserved.
+          </p>
+        </div>
+    </footer>
 </body>
 </html>

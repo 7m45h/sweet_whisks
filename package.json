@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "tailwind.config.js",
   "scripts": {
-    "tailwind": "npx tailwindcss -i ./src/input.css -o ./dist/style.css --watch",
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./style.css --watch",
     "prettier": "npx prettier --write **/*.html"
   },
   "keywords": [],
